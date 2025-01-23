@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css">
+    <style>
+        .circle-image {
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%;
+            border: 8px solid green; 
+            object-fit: cover; 
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="font-style: italic;" class="red">Cat Photo App</h1>
+    <p>
+       <span class="red">Click here to view more</span> <a href="https://www.google.com/search?sca_esv=a4c5c968ead58a07&sxsrf=ADLYWIJLUmohM50qJejOSilY-F4M0rcVgQ:1737311927864&q=cat+photos&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3JyJJclJuzBPl12qJyPx7ESJehObpS5jg6J88CCM-RK725uTmAZpGaaQNHAssOKTZzECPFMslQXapzfpK-ojP0SGWQr39BbxQfYNVzT9U9g6alGwb1mD-7hWXHz-1LQlktMJybxs&sa=X&ved=2ahUKEwj_6cuit4KLAxWbzgIHHYQJBdQQtKgLegQIERAB&biw=1280&bih=673&dpr=1.5#vhid=N2HQwSNJPLj5UM&vssid=mosaic" style="color: blueviolet;">cat photos</a> . <br> <br>
+        <img src="cat.jpg" alt=" error" class="circle-image" >
+    </p>
+    <div style="background-color: darkgrey;" >
+        Things cats love:
+          <ul>
+           <li> cat nip</li>
+           <li>laser pointers </li> 
+           <li>lasagna</li> 
+          </ul>
+        Top 3 things cats hate:
+        <ol>
+        <li>flea treatment</li> 
+        <li>thunder</li> 
+        <li>other cats</li> 
+    </ol>
+</div>
+<div class="backgreen" >
+    <input type="radio" id="Indoor" name="Gender" value="Indoor">
+    <label for="Indoor">Indoor</label>
+    <input type="radio" id="Outdoor" name="Gender" value="Outdoor">
+    <label for="Outdoor">Outdoor</label> <br>
+    <input type="checkbox">
+    <label>Loving</label>
+    <input type="checkbox">
+    <label>Lazy</label>
+    <input type="checkbox">
+    <label>Energetic</label><br>
+    <input placeholder="cat photo URL" type=" URL" id="URL" name=" URL" >
+    <button>Submit</button>
+</div>
+</body>
+</html>

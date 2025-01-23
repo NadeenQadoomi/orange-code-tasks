@@ -1,0 +1,283 @@
+.red {
+    color: red;
+}
+.green{
+    color: rgb(74, 184, 147);
+}
+.blue{
+    color: rgb(95, 95, 205);
+}
+.yellow{
+    color: yellow;
+}
+.pink{
+    color: pink;
+}
+.backblue{
+    background-color: blue;
+
+}
+.white{
+    color: white;
+}
+.backimg{
+    background-image: url(4.jpg);
+    width: 50%;
+    height: 100%;
+
+}
+.re{
+    background-image: url(4.jpg);
+    background-repeat: repeat-y;
+    background-size: 180px;
+    background-position: left;
+    height: 700px;
+
+}
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
+.bb{
+    color:rgb(20, 160, 184);
+}
+.backorange{
+    background-color: orange;
+}
+.backgreen{
+    background-color: green;
+}
+
+
+.A{
+    text-decoration: overline;
+    text-decoration-color: green;
+    font-size: 20px;
+}
+.B{
+    text-decoration: line-through;
+    text-decoration-color: grey ;
+}
+.C{
+    text-decoration: underline;
+    text-decoration-color:blueviolet;
+}
+.D{
+    text-decoration: overline underline;
+    text-decoration-color: blue;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform:capitalize ;
+}
+.right{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+.font1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font3{
+    font-family: "Trirong", serif;
+}
+.size1{
+    font-size: 40px;
+}
+.size2{
+    font-size: 70px;
+}
+.size3{
+    font-size: 20px;
+}
+.op1{
+    background-color: red;
+    opacity: 1;
+}
+.op2{
+    background-color: red;
+    opacity: 0.5;
+}
+.op3{
+    background-color: red;
+    opacity: 0.25;
+}
+.op4{
+    background-color: red;
+    opacity: 0.1;
+}
+.greenbold{
+    color: green;
+    font-family: arial;
+    font-weight: bold;
+}
+.pinkshad{
+    color: pink;
+    text-shadow : 2px 2px rgb(188, 69, 153);
+}
+.brown{
+    color: brown;
+}
+.throbrown{
+    text-decoration:line-through;
+    text-decoration-color: brown;
+    font-size: 20px;
+}
+.underred{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.br{
+    text-align:end;
+    color: brown;
+    text-decoration:line-through;
+    text-decoration-color: brown;
+    font-size: 20px;
+}
+.bblue{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.brb{
+    color: rgb(102, 17, 181);
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 17, 181);
+}
+.backblack{
+    background-color: black;
+    color: aliceblue;
+}
+.backbrb{
+    background-color: rgb(83, 9, 87);
+}
+.padding{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+.blackyellow{
+    background-color: yellow;
+}
+.boxsh {
+    box-shadow: 5px 7px 5px 5px; 
+}
+.border1 {
+    border: 8px ridge; 
+    padding: 10px; 
+    margin: 5px; 
+    display: inline-block; 
+    width: 150px;
+}
+.border2 {
+    border:8px solid black; 
+    padding: 10px; 
+    margin: 5px; 
+    display: inline-block; 
+    width: 150px;
+}
+.border3{
+    border: 8px double; 
+    padding: 10px; 
+    margin: 5px; 
+    display: inline-block; 
+    width: 150px;
+}
+.div4{
+    border-top: 40px solid rgb(76, 125, 248);
+    border-bottom: 40px solid pink;
+    text-align: center;
+}
+
+.u1{
+    text-align: center;
+}
+
+.but1{
+    padding: 5px;
+    color: white;
+    background-color: rgb(26, 216, 26);
+    margin-bottom: 10px;
+}
+.div5{
+    text-align: center;
+    background-color: black;
+    margin: 20%;
+    padding: 100px;
+}
+
+.u2{
+    background-color: white;
+    padding: 30px;
+    color: rgb(17, 17, 18);
+    box-shadow: 5px 3px 2px 1px blue;
+    width: 50px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f5faf5;
+    margin: 50px;
+    box-shadow: 
+        10px 10px 0px 0px rgba(47, 9, 237, 0.3), 
+        15px 15px 0px 0px rgba(11, 221, 57, 0.3),
+        20px 20px 10px rgba(205, 208, 39, 0.5);   
+}
+.bor1{
+    border-style: dashed solid dotted solid;
+}
+.bor2{
+    border-style: solid solid dashed dotted ;
+}
+.bor3{
+    border-style: dotted;
+}
+.bor4{
+    border-style: solid;
+}
+.bor5{
+    border-style: solid ;
+    border-color: blue;
+}
+.bor6{
+    border-top:solid green ;
+    border-right: solid blue;
+    border-bottom:dotted green ;
+    border-left: solid green;
+}
+.borbrown{
+    border-style: solid;
+    border-color: brown;
+    background-color: rgb(237, 237, 172);
+    padding: 10px;
+}
+.bororange{
+    border-style: ridge;
+    border-color: orange;
+}
+.bororange2{
+    width: 200px;
+    height: 150px;
+    border-style: dashed ;
+    border-color: orange;
+    background-color: yellow;
+    overflow:scroll;
+}

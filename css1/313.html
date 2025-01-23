@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online FoodShop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .banner {
+            background-image: url(mainfood2.jpg); 
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+            color: #fff;
+            border-radius: 20px;
+        }
+        .banner h1 {
+            margin: 0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: white;
+            
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .featured-products {
+            padding: 20px;
+        }
+        .featured-products h2 {
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #28a745;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        .backprice{
+            background-image:url(price.jpg);
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            
+        }
+        .backspe{
+            background-image:url(spec.jpg);
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="banner">
+        <h1>Welcome to Online FoodShop</h1>
+        <div class="buttons">
+          <div class="backprice"><a href="#">Prices</a></div>
+           <div class="backspe"><a href="#">Specials</a></div>
+        </div>
+
+    </div>
+
+    <div class="featured-products">
+        <hr>
+        <h2 style="color: red;">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="cupcake (1).jpg" alt="Cupcakes"> 
+                <a href="#">Order Now</a>
+            </div>
+            <div class="product">
+                <img src="drink (1).jpg" alt="Drinks"> 
+                <a href="#">Order Now</a>
+            </div>
+            <div class="product">
+                <img src="food.jpg" alt="Food" width="100px" > 
+                <a href="#">Order Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
